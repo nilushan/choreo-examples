@@ -40,7 +40,7 @@ const authConfig = {
   signOutRedirectURL: window.config.redirectUrl,
   clientID: window.config.asgardeoClientId,
   baseUrl: window.config.asgardeoBaseUrl,
-  scope: ["openid", "profile"],
+  scope: ["openid", "profile","urn:zimitest:readinglistservicereading:create_list", "urn:zimitest:readinglistservicereading:delete_list", "urn:zimitest:readinglistservicereading:read_list"],
 };
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
